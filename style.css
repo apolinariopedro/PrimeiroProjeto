@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: background 1s;
 }
+
 :root {
   --bgUrl: url(./assets/bg-mobile.jpg);
   --textColor: white;
@@ -36,6 +38,7 @@ body * {
 
 body {
   background: var(--bgUrl) no-repeat top center/cover;
+  /* transition: background 2s; */
 }
 
 #container {
@@ -79,6 +82,7 @@ body {
   border-radius: 50%;
 
   background: white var(--switchImgUrl) no-repeat center;
+  transition: background 0s;
 
   position: absolute;
   z-index: 1;
